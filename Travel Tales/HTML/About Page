@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travel Tales</title>
+    <link rel="stylesheet" href="/Travel Tales/CSS/About Page.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Travel Tales</div>
+        <nav>
+            <ul>
+                <li><a href="/Travel Tales/HTML/Home Page">Home</a></li>
+                <li><a href="/Travel Tales/HTML/Gallery" class="active">Gallery</a></li>
+                <li><a href="/Travel Tales/HTML/Blog Page">Blog</a></li>
+                <li><a href="/Travel Tales/HTML/About Page">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Welcome to Travel Tales! We are passionate about exploring the world and sharing our adventures with fellow travel enthusiasts.
+            <br>Our mission is to inspire and guide you to embark on your own travel journeys and create memories that last a lifetime.</p>
+
+            <h2>Our Story</h2>
+            <p>Travel Tales started as a small travel blog, and over the years, it has grown into a vibrant community of travelers and storytellers. We believe that every journey has a tale worth sharing, and our platform is here to celebrate those stories.</p>
+
+            <h2>What We Offer</h2>
+            <ul>
+                <li>In-depth travel guides and tips.</li>
+                <li>Featured destinations to spark your wanderlust.</li>
+                <li>A supportive community of travel lovers.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Travel Tales. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
