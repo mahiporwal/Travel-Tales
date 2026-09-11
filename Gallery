@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Travel Tales</title>
+    <link rel="stylesheet" href="/Travel Tales/CSS/Gallery.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Travel Tales</div>
+        <nav>
+            <ul>
+                <li><a href="/Travel Tales/HTML/Home Page">Home</a></li>
+                <li><a href="/Travel Tales/HTML/About Page">About</a></li>
+                <li><a href="/Travel Tales/HTML/Blog Page">Blog</a></li>
+                <li><a href="/Travel Tales/HTML/Gallery" class="active">Gallery</a></li>
+                <li><a href="/Travel Tales/HTML/Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <h1>Our Travel Memories</h1>
+            <p>Explore stunning visuals from our journeys across the world.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/amsterdam.jpeg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/paris.webp" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/italy.jpeg" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/Greece.jpg" alt="Gallery Image 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/Switzerland.webp" alt="Gallery Image 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Travel Tales/Images/maldives.jpeg" alt="Gallery Image 6">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Travel Tales. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
