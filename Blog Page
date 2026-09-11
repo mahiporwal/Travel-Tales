@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Travel Tales</title>
+    <link rel="stylesheet" href="/Travel Tales/CSS/Blog Page.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Travel Tales</div>
+        <nav>
+            <ul>
+                <li><a href="/Travel Tales/HTML/Home Page">Home</a></li>
+                <li><a href="/Travel Tales/HTML/About Page">About</a></li>
+                <li><a href="/Travel Tales/HTML/Blog Page" class="active">Blog</a></li>
+                <li><a href="/Travel Tales/HTML/Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Explore our latest travel stories, tips, and guides to inspire your next adventure.</p>
+
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <img src="/Travel Tales/Images/italy.jpeg" alt="Blog Post 1">
+                    <h2><a href="#">Discovering Hidden Gems in Italy</a></h2>
+                    <p>Join us as we uncover some of the most beautiful yet lesser-known destinations in Italy.</p>
+                </article>
+
+                <article class="blog-post">
+                    <img src="/Travel Tales/Images/beaches.jpeg" alt="Blog Post 2">
+                    <h2><a href="#">Top 5 Beaches to Visit in 2025</a></h2>
+                    <p>From pristine white sands to crystal-clear waters, these beaches are a must-visit this year.</p>
+                </article>
+
+                <article class="blog-post">
+                    <img src="/Travel Tales/Images/travelling.webp" alt="Blog Post 3">
+                    <h2><a href="#">Traveling on a Budget: Tips and Tricks</a></h2>
+                    <p>Learn how to explore the world without breaking the bank with our top budget-friendly tips.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Travel Tales. All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
